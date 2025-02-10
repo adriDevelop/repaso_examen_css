@@ -1,0 +1,28 @@
+div{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    opacity: 0.5;
+    transition-property: opacity, left;
+    transition-duration: 0.5s, 2s;
+    transition-timing-function: ease;
+}
+
+.circulo{
+    background-color: green;
+    border-radius: 50%;
+}
+
+.cuadrado{
+    background-color: red;
+}
+
+.redondeado{
+    background-color: blue;
+    border-radius: 20%;
+}
+
+.circulo:hover ~ div {
+    opacity: 1;
+    left: 200px;
+}
