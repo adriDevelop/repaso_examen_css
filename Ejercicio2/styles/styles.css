@@ -1,0 +1,18 @@
+body{
+    display: grid;
+    place-content: center;
+}
+
+div{
+    width: 130px;
+    height: 100px;
+    background-image: url('../on.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+
+div:hover{
+    background-image: url('../under.png');
+}

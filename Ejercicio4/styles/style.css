@@ -1,0 +1,53 @@
+#ejercicio1{
+    display: grid;
+    place-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    transition: background-color, font-size;
+    transition-timing-function: ease;
+    transition-duration: 2s;
+}
+
+#ejercicio1:hover{
+    background-color: purple;
+    font-size: 0px
+}
+
+#ejercicio2{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    transition-duration: 4s;
+    transition-property: transform;
+    transition-timing-function: steps(4);
+    
+}
+
+#ejercicio2:hover{
+    transform: rotate(180deg);
+}
+
+#ejercicio3{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 0;
+    background-color: rgba(36, 173, 86, 0.845);
+    transition-duration: 0.01s;
+    transition-timing-function: ease-in;
+}
+
+#ejercicio3:hover{
+    margin-left: 400px;
+}
+
+#ejercicio4{
+    color: blue;
+    transition-timing-function: ease;
+}
+
+#ejercicio4:hover{
+    text-decoration:underline;
+    text-decoration-color: brown;
+}
