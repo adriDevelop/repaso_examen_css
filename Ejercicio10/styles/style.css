@@ -1,0 +1,19 @@
+@keyframes botar {
+    0% {transform: translateY(0)}
+    50% {transform: translate(15vw, 25vh)}
+    75% {transform: translate(30vw, 0vh)}
+    100% {transform: translate(45vw, 25vh)}
+}
+
+.circulo{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border-radius: 100%;
+    border: 0;
+    left: 0;
+    animation-duration: 2s;
+    animation-name: botar;
+    animation-timing-function: ease-in;
+    animation-iteration-count:5;
+}
