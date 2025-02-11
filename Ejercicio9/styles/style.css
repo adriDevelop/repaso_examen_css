@@ -1,0 +1,13 @@
+div{
+    width: 400px;
+    height: 400px;
+    background-color: purple;
+    transition-duration: 4s;
+    transition-property: transform;
+    transition-timing-function: steps(4);
+}
+
+div:hover{
+    background-color: green;
+    transform: rotate(180deg);
+}
